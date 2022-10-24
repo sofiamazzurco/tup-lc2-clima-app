@@ -44,12 +44,15 @@ form input {
 
 #rojo {
     background-color: #dc3545;
+    display: none;
 }
 
 #amarillo {
     background-color: #ffc107;
+    display: none;
 }
 
 #verde {
     background-color: #28a745;
+    display: none;
 }

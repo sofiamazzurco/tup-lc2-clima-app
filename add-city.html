@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/pages/add-city.css">
     <link rel="icon" href="css/img/solynube.ico">
+    <script src="js/pages/add-city.js"></script>
 </head>
 
 <body>
@@ -36,7 +37,7 @@
                     <label for="ingresarCiudad">Ingrese la ciudad a agregar:</label>
                     <input type="text" name="agregarCiudad" id="agregarCiudad">
 
-                    <input type="button" value="Agregar" id="agregar">
+                    <input type="button" value="Agregar" id="agregar" onclick="addNewCityToLocalStorage();">
                 </form>
             </section>
 
