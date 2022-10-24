@@ -1,0 +1,57 @@
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 auto;
+}
+
+textarea{
+    border-radius: 4px;
+    padding: 8px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.inputForm {
+    width: 300px;
+    border-radius: 4px;
+    padding: 8px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.botonHelp {
+    display: inline;
+    margin: 8px;
+    width: 100px;
+    height: 35px;
+    color: white;
+    background-color: #00453b;
+    border-radius: 8px;
+    border-color: #00453b;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.centrado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#mensajeEmailInvalido{
+    width: 500px;
+    height: 50px;
+    border-radius: 16px;
+    margin: 12px auto;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    background-color: #dc3545;
+}

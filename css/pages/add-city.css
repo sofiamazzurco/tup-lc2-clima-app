@@ -1,0 +1,55 @@
+form label {
+    display: flex;
+    justify-content: center;
+}
+
+form input {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#agregarCiudad {
+    width: 230px;
+    border-radius: 4px;
+    padding: 8px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#agregar {
+    background-color: #00453b;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    border-color: #00453b;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.mensajes {
+    display: block;
+    width: 500px;
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+#rojo {
+    background-color: #dc3545;
+}
+
+#amarillo {
+    background-color: #ffc107;
+}
+
+#verde {
+    background-color: #28a745;
+}
