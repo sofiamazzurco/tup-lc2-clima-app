@@ -1,4 +1,4 @@
-   function addNewCityToLocalStorage() {
+function addNewCityToLocalStorage() {
     let newCity = document.getElementById('agregarCiudad').value;
     let cities = getCitiesFromLocalStorage();
     if(cities.indexOf(newCity)>=0){

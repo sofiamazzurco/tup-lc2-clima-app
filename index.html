@@ -8,6 +8,8 @@
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/pages/index.css">
+    <script src="js/pages/index.js"></script>
+    <script src="js/pages/add-city.js"></script>
     <link rel="icon" href="css/img/solynube.ico">
 </head>
 
@@ -33,10 +35,11 @@
         <h2>El Clima Ahora</h2>
             <section id="form-city-list">
                 <form>
+                    <script>opcionesSelect();</script>
                     <select name="desplegableCiudades" id="desplegableCiudades">
                         <option value="" disabled selected>Seleccionar Ciudad</option>
-                        <option value="ROSARIO">Rosario</option>
-                        <option value="RAFAELA">Rafaela</option>
+                        <!-- <option value="ROSARIO">Rosario</option> -->
+                        <!-- <option value="RAFAELA">Rafaela</option> -->
                     </select>
                     <input type="button" id="botonColsultar" value="Consultar">
                 </form>
